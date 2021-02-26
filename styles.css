@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: 800px;
+  display: block;
+  background-color: green;
+  margin: Auto;
+}
+body .poker-game header {
+  border: 2px solid black;
+  background-color: #b2f368;
+  color: red;
+  height: 110px;
+  width: 700px;
+  font-family: verdana;
+  text-align: center;
+  background-image: url("./images_header.jpeg");
+}
+body .poker-game .container2 {
+  border: 2px solid black;
+  background-color: black;
+  height: 800px;
+  width: 700px;
+  display: block;
+  gap: 10px;
+  color: white;
+  font-family: verdana;
+  padding: 25px;
+  background-image: url("./golden-premium-casino-symbol-chips_1017-30141.jpg");
+}
+body .poker-game .container2 .playerCards {
+  border: 2px solid black;
+  background-color: red;
+  display: block;
+  clear: both;
+  width: 650px;
+  height: 200px;
+}
+body .poker-game .container2 button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+}
+body .poker-game .container2 .rules {
+  border: 2px solid black;
+  display: block;
+  clear: both;
+  width: 650px;
+  height: 250px;
+}
+body .poker-game .container2 .rules ul {
+  padding: 20px;
+}
+body header {
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  height: 100px;
+  width: 700px;
+  font-family: verdana;
+  text-align: center;
+  background-image: url("./240_F_300680318_mXtOxD7oLn0uk2tGCECLDKtWxBxbXtEA.jpg");
+}
+body header .selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+}
+body .container {
+  border: 2px solid black;
+  background-color: #535beb;
+  height: 800px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #DDDDDD;
+  font-family: verdana;
+  padding: 25px;
+  background-image: url("./poker-table-background-green-color_47243-1068.jpg");
+}
+body .container .playerCard1 {
+  border: 2px solid black;
+  display: block;
+  clear: both;
+  width: 300px;
+  min-height: 350px;
+  background-color: green;
+}
+body .container .playerCard2 {
+  border: 2px solid black;
+  display: block;
+  clear: both;
+  width: 300px;
+  min-height: 350px;
+  background-color: green;
+}
+body .container button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+}
+body .container .game1button {
+  display: flex;
+  width: 300px;
+  height: 100px;
+}
+body .container .game1 {
+  display: flex;
+  width: 300px;
+  height: 100px;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+  background-color: white;
+  background-image: url("https://i.imgur.com/yKggR5N.png");
+  background-position-x: 0px;
+  background-position-y: center;
+  background-repeat: none;
+  background-position: middle center;
+  border: 1px #555555 solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 0px #000000;
+  box-shadow: 2px 2px 3px 0px #000000;
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    display: flex;
+  }
+}

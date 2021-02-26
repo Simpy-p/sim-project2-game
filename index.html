@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="try-yourluck">
+  <header>
+  <h1>Ready for Big Game!!</h1>
+  <h3>Choose your player</h3>
+  <div class="selection">
+  <input type="radio" id="P1" name="player" value="Player1" >
+  <label for="P1">PLAYER 1</label>
+  <input type="radio" id="P2" name="player" value="Player2" >
+  <label for="P2">PLAYER 2</label>
+
+  </div>
+ 
+</header>
+  <div class="container">
+    <div class="playerCard1" >
+      <label for="">Player 1</label>
+    </div>
+    <div class="playerCard2" > 
+      <label for="">Player 2</label>
+    </div>
+    <div class="game1">
+      <h3> Try your luck</h3>
+      <div id="image"></div>  
+      <h2></h2> 
+    </div> 
+      <div class="game1button">
+        <button class="shuffle" onclick="">Shuffle</button>
+        <button class="show" onclick="">Show</button>
+        <button class="reset" onclick="">Reset</button>
+      
+    </div>  
+  
+  </div> 
+</div> 
+<div class="poker-game">
+<header>
+  <h1>Ready for the Next Game?!</h1>
+
+
+</header>
+  <div class="container2">
+    <label for="">Player Cards</label>
+    <div class="playerCards" >
+     
+    </div>
+    <div class="rules" >
+      <p>Rules for Poker Game:</p>
+      <ul>
+        <li>Rank 1:Five of Kind(all cards of Ace value+Joker)</li>
+        <li>Rank 2:Royal Flush(all cards of in sequence of 110JKQ)</li>
+        <li>Rank 3:Straight Flush(sequence of same style card)</li>
+        <li>Rank 4:Four of Kind(all cards of same value+Joker)</li>
+        <li>Rank 5:Flush(3 card in sequence)</li>
+        <li>Rank 6:Full House(3 card of same value+2 card of same value)</li>
+        <li>Rank 7:Straight(5 card in sequence any colour)</li>
+        <li>Rank 8:Three card of Kind(3  cards of same value+ any two card)</li>
+        <li>Rank 9:Two Pair(2 pair of cards of same value+ any 3 card)</li>
+        <li>Rank 10:One Pair(1 pair cards of same value+ any 3 card)</li>
+
+    </ul>
+    </div>
+    <div class="game2">
+      <h3>Enjoy Poker!!</h3> 
+      <h2 id="result2"></h2> 
+    </div> 
+      <div class="game1button">
+        <button class="start" onclick="">Start</button>
+        <button class="deal" onclick="">Deal</button>
+        <button class="reset" onclick="">Reset</button>
+      
+    </div>  
+
+  </div> 
+
+</div>
+  <script src="./app.js"></script>
+</body>
+</html>
